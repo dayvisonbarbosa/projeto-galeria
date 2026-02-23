@@ -28,5 +28,16 @@ section#principal {
     left: 50%;
     transform: translate(-50%, -50%);
 
+    height: 753px;
+    width: 375px;
     background: url("../imagens/celular.png") no-repeat;
+
+}
+
+iframe#tela {
+    position: relative;
+    top: 80px;
+    left: 19px;
+    width: 339px;
+    height: 600px;
 }
