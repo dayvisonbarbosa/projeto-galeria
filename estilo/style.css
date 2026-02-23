@@ -46,8 +46,11 @@ section#apps img {
 }
 
 section#apps p {
-    text-decoration: none;
     color: white;
+}
+
+section#apps a {
+    text-decoration: none;
 }
 
 iframe#tela {
