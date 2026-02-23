@@ -34,6 +34,22 @@ section#principal {
 
 }
 
+section#apps {
+    position: absolute;
+    bottom: 25%;
+    right: 43%;
+}
+
+section#apps img {
+    width: 50px;
+    border-radius: 50%;
+}
+
+section#apps p {
+    text-decoration: none;
+    color: white;
+}
+
 iframe#tela {
     position: relative;
     top: 80px;
