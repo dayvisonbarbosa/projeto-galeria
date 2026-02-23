@@ -6,6 +6,27 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+    height: 100vh;
+    width: 100vw;
+}
+
+body {
+    background: url("../imagens/images.jpg") no-repeat ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+}
+
 section#principal {
-    background: url("../imagens/images.jpg") no-repeat top center;    
+    position: absolute;   
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: url("../imagens/celular.png") no-repeat;
 }
