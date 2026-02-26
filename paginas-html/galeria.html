@@ -4,74 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria</title>
-    <style>
-
-        * {
-            font-family: Arial, Helvetica, sans-serif;
-        }
-
-        body {
-            background-color: #365F6B;
-        }
-
-        main {
-            position: relative;
-        }
-
-        p#pesquisar {
-            border: 1px solid black;
-            border-radius: 10px;
-            padding: 5px;
-            padding-left: 30px;
-            color: lightgray;
-        }
-
-        p#expandir {
-            color: rgb(70, 209, 219);
-            text-align: right;
-            padding-right: 10px;
-        }
-
-        p#recentes {
-            color: white;
-            margin-top: -20px;
-            font-weight: bolder;
-            padding-left: 10px;
-        }
-
-        iframe {
-            width: 100px;
-            border-color: rgba(0, 0, 0, 0.356);
-            border-radius: 10px;
-        }
-
-        p#categorias {
-            color: white;
-            font-weight: bolder;
-            padding-left: 10px;
-        }
-
-        ul {
-            columns: 2;
-            margin-left: -40px;         
-        }
-
-        ::-webkit-scrollbar {
-            width: 0px;
-            height: 0px;
-        }
-
-        p.menu {
-            background-color: #2C3B41;
-            border: 1px solid black;           
-            border-radius: 10px;
-            color: white;
-            margin: 0px;
-            margin-bottom: 10px;
-            padding: 15px;
-            text-align: left;
-        }
-    </style>
+    <link rel="stylesheet" href="../estilo/imagens-recentes.css">
 </head>
 <body>
     <p id="pesquisar">
@@ -86,11 +19,9 @@
         Recentes
     </p>
 
-    <iframe src="primeira-img.html" frameborder="1"></iframe>
-
-    <iframe src="segunda-img.html" frameborder="1"></iframe>
-
-    <iframe src="terceira-imagem.html" frameborder="1"></iframe>
+    <a href="primeira-img.html"><img src="../imagens/imagem01.jpg" class="recentes"></a>
+    <img src="../imagens/imagem02.png" class="recentes">
+    <img src="../imagens/imagem03.jpg" class="recentes">
 
     <p id="categorias">
         Categorias
