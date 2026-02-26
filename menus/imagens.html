@@ -5,26 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu Imagens</title>
     <style>
-        *{
+        * {
             margin: 0px;
             padding: 0px;
         }
 
+        main {
+            position: relative;
+        }
+
         body {
             font-family: Arial, Helvetica, sans-serif;
-            background-color: #365F6B;
+            background-color: rgb(6, 28, 48);
         }
+
+        header {
+            background-color: #365F6B;
+            border-bottom: 1px solid white;
+        }
+
+        header > h1 {
+            color: white;
+            margin: 20px;
+            margin-top: 0px;
+            padding-left: 30px;
+            padding-top: 18px;
+            font-size: 1em;
+        }
+
+        p {
+            display: inline-block;
+            color: rgb(206, 206, 206);
+            padding: 10px;
+        }
+
+        a:hover {
+            transition: 0.5s;
+            background-color: rgba(87, 206, 253, 0.747);
+            border-radius: 5px;
+            padding: 2px;
+        }
+
+        section > h2 {
+            color: white;
+            padding: 5px;
+            font-size: 0.8em;
+        }
+
+        a > img {
+            position: absolute;
+            bottom: 93%;
+            width: 30px;
+            border-radius: 50%;
+            margin-left: 5px;
+        }
+
     </style>
 </head>
 <body>
     <header>
+        <h1>Imagens</h1>
+        <a href="../paginas-html/galeria.html"><img src="../imagens/free-seta-para-tras-icon-svg-download-png-1502427.webp"></a>
+        <nav>
+            <a href="">
+                <p>Tudo</p>
+            </a>
+            
+            <a href="">
+                <p>Camera</p>
+            </a>
 
+            <a href="">
+                <p>Imagens</p>
+            </a>
+
+            <a href="">
+                <p>Pictures</p>
+            </a>
+        </nav>
     </header>
-    <nav>
-
-    </nav>
-    <section>
-        
-    </section>    
+    <main>
+        <section>
+            <h2>Hoje</h2>
+        </section>
+    </main>  
 </body>
 </html>
