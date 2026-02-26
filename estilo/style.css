@@ -46,6 +46,17 @@ section#principal {
         box-sizing: border-box;
     }
 
+    section#apps img#home {
+        margin-top: 30px;
+        
+    }
+
+    section#apps p#phome {
+       margin: 0px;
+       margin-left: 12px;
+       margin-right: 12px;
+    }
+
     section#apps p {
         text-align: right;
         color: white;
